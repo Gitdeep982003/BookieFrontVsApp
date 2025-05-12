@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Larger login form */
+.card {
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+/* Enhance form fields */
+input::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+}
+
+form .form-control {
+    padding: 14px;
+    font-size: 1rem;
+}
+
+/* Interactive tile-style links */
+.option-tile {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    user-select: none;
+}
+
+.option-tile:hover {
+    background-color: #e2e6ea;
+    border-color: #ccc;
+    color: #007bff;
+}
+
+/* Modal adjustments */
+.modal-body input {
+    font-size: 0.95rem;
+    padding: 10px;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+}
+
+.btn-success:hover {
+    background-color: #3e8e41;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 576px) {
+    .card {
+        padding: 1.8rem;
+    }
+
+    .option-tile {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .modal-content {
+        border-radius: 12px;
+    }
+
+    .modal-body input {
+        margin-bottom: 0.75rem;
+    }
+}
